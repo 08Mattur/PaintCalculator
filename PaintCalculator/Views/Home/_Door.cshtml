@@ -1,0 +1,20 @@
+﻿@model PaintCalculator.DTO.Door
+
+@using (Html.BeginCollectionItem("Room.Doors"))
+{
+<div class="row doorRow mt-2">
+    <div class="col-5">
+        @Html.TextBoxFor(x => x.Height, new { @ID = "DoorH" + Html.ViewData.TemplateInfo.HtmlFieldPrefix, @class = "form-control", @Placeholder = "Height..." })
+        @Html.ValidationMessageFor(x => x.Height, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-5">
+        @Html.TextBoxFor(x => x.Width, new { @ID = "DoorW" + Html.ViewData.TemplateInfo.HtmlFieldPrefix, @class = "form-control", @Placeholder = "Width..." })
+        @Html.ValidationMessageFor(x => x.Width, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-2 text-right">
+        <button class="btn btn-danger deleteDoor  btn-sm">
+            <i class="fa fa-trash"></i>
+        </button>
+    </div>
+</div>
+}

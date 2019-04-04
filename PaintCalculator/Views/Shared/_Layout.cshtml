@@ -1,0 +1,28 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaintCalculator - @ViewBag.Title</title>
+    @Styles.Render("~/bundles/css/bs")
+    @Styles.Render("~/bundles/css/jqueryui")
+    @Styles.Render("~/bundles/css/fa")
+    @Styles.Render("~/bundles/css/pc")
+
+    @RenderSection("styles", false)
+</head>
+<body class="bg-light">
+   
+    @RenderBody()
+
+
+    @Scripts.Render("~/bundles/jq")
+    @Scripts.Render("~/bundles/rif")
+
+    @Scripts.Render("~/bundles/jqui")
+    @Scripts.Render("~/bundles/bs")
+    @Scripts.Render("~/bundles/pc")
+
+    @RenderSection("scripts", false)
+</body>
+</html>
