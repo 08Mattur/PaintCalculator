@@ -1,0 +1,6 @@
+C:\Users\Turnem\Desktop\PaintCalculator\PaintCalculator.DTO\bin\Debug\PaintCalculator.DTO.dll
+C:\Users\Turnem\Desktop\PaintCalculator\PaintCalculator.DTO\bin\Debug\PaintCalculator.DTO.pdb
+C:\Users\Turnem\Desktop\PaintCalculator\PaintCalculator.DTO\obj\Debug\PaintCalculator.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Turnem\Desktop\PaintCalculator\PaintCalculator.DTO\obj\Debug\PaintCalculator.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Turnem\Desktop\PaintCalculator\PaintCalculator.DTO\obj\Debug\PaintCalculator.DTO.dll
+C:\Users\Turnem\Desktop\PaintCalculator\PaintCalculator.DTO\obj\Debug\PaintCalculator.DTO.pdb
