@@ -1,7 +1,7 @@
 # PaintCalculator
 Repository for the Borwell Software Challenge
 
-#Download Instructions
+# Download Instructions
 To download, click "Clone or download" in the main repository folder and select "Download ZIP" 
 <br/>
 <br/>
